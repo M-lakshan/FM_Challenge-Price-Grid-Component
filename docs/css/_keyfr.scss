@@ -1,0 +1,29 @@
+@keyframes pop-up-1 {
+    0% {
+        opacity: 100%;
+    }
+    
+    50% {
+        transform: scale(1.02);
+        opacity: 100%;
+    }
+    100% {
+        opacity: 100%;
+        transform: translate(1.05);
+    }
+}
+
+@keyframes pop-up-2 {
+    0% {
+        opacity: 100%;
+    }
+    
+    50% {
+        transform: scale(1);
+        opacity: 50%;
+    }
+    100% {
+        opacity: 100%;
+        transform: translate(0);
+    }
+}
